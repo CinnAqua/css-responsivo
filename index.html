@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0", user-scalable="yes", maximum-scale="1", minimum-scale="0.5">
+    <meta name="viewport" content="width=device-width, initial-scale=1", user-scalable="yes" initial-scale="1">
     <title>Mundo das Plantas</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,49 +13,55 @@
     <header>
         <div class="container">
             <h1>Mundo das Plantas</h1>
-            <a href="#sobre">Sobre a loja</a>
-            <a href="#produtos">Produtos</a>
+            <ul>
+                <li><a href="#sobre">Sobre a loja</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+            </ul>
         </div>
     </header>
-    <div id="sobre" class="container">
-        <section>
-            <img src="https://img.freepik.com/fotos-gratis/flores-no-jardim-jardim-mae-fah-luang-localizam-em-doi-tung-em-chiang-rai-tailandia_335224-968.jpg?w=2000" width="500px" height="500px">
-        </section>
-        <section>
-            <h2>Sobre a loja</h2>
-            <h3>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sequi libero voluptatem vero aliquam obcaecati iure quis quae, voluptatibus error illum tenetur odio incidunt nostrum maiores rem sint, ab reprehenderit.
-            </h3>
-        </section>
-    </div>
-    <div id="produtos" class="container">
-        <h2>Produtos</h2>
-        <section class="categorias">
-            <article>
-                <img src="https://img.freepik.com/fotos-premium/cacto-mandacaru-nativo-do-sertao-da-paraiba-brasil_491130-3008.jpg?size=626&ext=jpg">
-                <h2>Suculentas</h2>
-                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
-                <button type="button">Adicionar ao carrinho</button>
-            </article>
-            <article>
-                <img src="https://img.freepik.com/fotos-premium/nephrolepis-exaltata-boston-samambaia-verde-senhora-espaco-agradavel-e-moderno-de-casa-interior-casa-jardimverde_115594-3313.jpg">
-                <h2>Samambaias</h2>
-                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
-                <button type="button">Adicionar ao carrinho</button>
-            </article>
-            <article>
-                <img src="https://img.freepik.com/fotos-gratis/arranjo-lindo-de-papel-de-parede-de-flores_23-2149057015.jpg?size=626&ext=jpg">
-                <h2>Flores</h2>
-                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
-                <button type="button">Adicionar ao carrinho</button>
-            </article>
-            <article>
-                <img src="https://img.freepik.com/fotos-premium/folhas-da-armadilha-de-venus-dionaea-muscipula-planta-carnivora-subtropical-fechada_857988-3241.jpg">
-                <h2>Carnívoras</h2>
-                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
-                <button type="button">Adicionar ao carrinho</button>
-            </article>
+    <section id="sobre">
+        <div class="container">
+            <div>
+                <img src="https://img.freepik.com/fotos-gratis/flores-no-jardim-jardim-mae-fah-luang-localizam-em-doi-tung-em-chiang-rai-tailandia_335224-968.jpg?w=2000">
+            </div>
+            <div>
+                <h1>Sobre a loja</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae laboriosam aspernatur ducimus neque odio illum, iure maxime temporibus nemo doloremque quo hic, at vel excepturi, qui mollitia natus. Inventore, error.</p>
+            </div>
         </div>
-    </div>
+    </section>
+    <section id="produtos">
+        <div class="container">
+            <div>
+                <h1>Produtos</h1>
+            </div>
+            <div id="articles">
+                <article>
+                    <img src="https://img.freepik.com/fotos-premium/folhas-da-armadilha-de-venus-dionaea-muscipula-planta-carnivora-subtropical-fechada_857988-3241.jpg">
+                    <h1>Carnívoras</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    <button>Ver mais</button>
+                </article>
+                <article>
+                    <img src="https://img.freepik.com/fotos-gratis/arranjo-lindo-de-papel-de-parede-de-flores_23-2149057015.jpg?size=626&ext=jpg">
+                    <h1>Flores</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    <button>Ver mais</button>
+                </article>
+                <article>
+                    <img src="https://img.freepik.com/fotos-premium/exuberante-samambaia-verde-brilhante-na-varanda_332246-100.jpg?size=626&ext=jpg">
+                    <h1>Samambaias</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    <button>Ver mais</button>
+                </article>
+                <article>
+                    <img src="https://img.freepik.com/fotos-premium/cacto-mandacaru-nativo-do-sertao-da-paraiba-brasil_491130-3008.jpg?size=626&ext=jpg">
+                    <h1>Suculentas</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    <button>Ver mais</button>
+                </article>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

@@ -30,7 +30,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
 }
 div > div > h1 {
     border-bottom: 3px solid green;
@@ -159,13 +158,16 @@ button:hover {
     #sobre img {
         width: 90%;
     }
+    #sobrediv {
+        display: flex;
+    }
     #articles {
         margin-bottom: 40px;
         display: grid;
         grid-template-columns: repeat(4, 24.25%);
         column-gap: 1%;
     }
-    #sobrediv {
-        display: flex;
+    br {
+        display: none;
     }
 }
